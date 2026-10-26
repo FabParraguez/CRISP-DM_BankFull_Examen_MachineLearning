@@ -1,0 +1,4 @@
+Iteracion / modelo,F1 validacion cruzada,Mejores parametros
+Iteracion 2 | Regresion logistica,0.3205736730401679,"{""classifier__C"": 1.0, ""selection__percentile"": 50}"
+Iteracion 2 | Arbol de decision,0.3541045149642843,"{""classifier__max_depth"": 6, ""classifier__min_samples_leaf"": 5, ""selection__percentile"": 75}"
+Iteracion 2 | Random Forest,0.37734373744519073,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 8, ""classifier__n_estimators"": 80, ""selection__percentile"": 75}"

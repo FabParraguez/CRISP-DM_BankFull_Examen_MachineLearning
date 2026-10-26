@@ -10,12 +10,6 @@ septimo hay una carpeta modelos donde ahi deberas dejar los modelos realizados
 octavo en streamlit app esta es la carpeta donde esta la app que streamlit que solicita en el encargo 
 
 
-primero realizar 
-
-Estimados:
-Junto con saludar, les comento que el taller 6 y último del ramo corresponde a 1 iteración del crisp-dm del entregable del examen
-
-2do realizar el encargo.md 
 
 Junto con saludar, adjunto el dataset con el que deberán desarrollar el ciclo completo de la metodología CRISP-DM, considerando sus seis fases.
 

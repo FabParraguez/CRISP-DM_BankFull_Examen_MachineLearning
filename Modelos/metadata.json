@@ -1,0 +1,40 @@
+{
+  "dataset": "Data\\bank-full.csv",
+  "dataset_sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+  "target": "y",
+  "positive_class": "yes",
+  "selected_features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "excluded_post_contact_features": [
+    "duration",
+    "campaign",
+    "day",
+    "month",
+    "contact"
+  ],
+  "train_fraction": 0.6000000000000001,
+  "validation_fraction": 0.2,
+  "test_fraction": 0.2,
+  "random_state": 42,
+  "selection_metric": "F1 on validation; ties resolved by Recall and ROC-AUC",
+  "selected_model": "Iteracion 2 | Arbol de decision",
+  "models": {
+    "Iteracion 1 | Regresion logistica": "iteracion_1_regresion_logistica.joblib",
+    "Iteracion 2 | Regresion logistica": "iteracion_2_regresion_logistica.joblib",
+    "Iteracion 1 | Arbol de decision": "iteracion_1_arbol_de_decision.joblib",
+    "Iteracion 2 | Arbol de decision": "iteracion_2_arbol_de_decision.joblib",
+    "Iteracion 1 | Random Forest": "iteracion_1_random_forest.joblib",
+    "Iteracion 2 | Random Forest": "iteracion_2_random_forest.joblib"
+  }
+}
